@@ -7,6 +7,9 @@ todo:
 git:
     gitui
 
+new:
+    nvim "draft/$(date +%Y-%m-%d_%H-%M-%S).md"
+
 develop:
     @sh -c ' \
         h=$(nix hash path ./flake.nix); \
