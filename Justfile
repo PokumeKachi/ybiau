@@ -8,7 +8,7 @@ git:
     gitui
 
 new:
-    nvim "draft/$(date +%Y-%m-%d_%H-%M-%S).md"
+    nvim "notes/draft/$(date +%Y-%m-%d_%H-%M-%S).md"
 
 develop:
     @sh -c ' \
