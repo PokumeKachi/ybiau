@@ -7,9 +7,6 @@ todo:
 git:
     gitui
 
-new:
-    nvim "notes/draft/$(date +%Y-%m-%d_%H-%M-%S).typ"
-
 develop:
     @sh -c ' \
         h=$(nix hash path ./flake.nix); \
@@ -21,3 +18,7 @@ develop:
             echo "Inside flake shell, skipping nix develop..."; \
         fi \
     '
+
+new:
+    cd src && nvim "$(date +%Y-%m-%d_%H-%M-%S).md"
+

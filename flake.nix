@@ -14,6 +14,15 @@
                     libs = with pkgs; [
                     ];
                     tools = with pkgs; [
+                        zk
+
+                        tectonic
+                        python313Packages.pylatexenc
+                        nodejs
+                        imagemagick
+                        librsvg
+                        yarn
+
                         typst
                         tinymist
 
