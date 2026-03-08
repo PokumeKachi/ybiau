@@ -18,30 +18,12 @@
 
                         tectonic
                         python313Packages.pylatexenc
-                        nodejs
+
                         imagemagick
                         librsvg
+
+                        nodejs
                         yarn
-
-                        typst
-                        tinymist
-
-                        typstPackages.cetz
-                        typstPackages.unify
-                        typstPackages.showybox
-                        typstPackages.itemize
-
-                        typstPackages.fletcher
-                        typstPackages.lilaq
-
-                        typstPackages.touying
-                        touying
-
-                        typstPackages.scripst
-                        typstPackages.tyniverse
-
-                        typstPackages.pesha
-                        typstPackages.modern-cv
 
                         taskwarrior-tui
                         gitui
