@@ -12,8 +12,7 @@
 default-title = "Untitled"
 
 # Template used to generate a note's filename, without extension.
-# filename = "{{id}}-{{slug title}}"
-filename = ""
+filename = "{{id}}-{{slug title}}"
 
 # The file extension used for the notes.
 extension = "md"
@@ -23,9 +22,7 @@ extension = "md"
 template = "default.md"
 
 # Path globs ignored while indexing existing notes.
-exclude = [
-   "log.md"
-]
+exclude = ["log.md"]
 
 # Configure random ID generation.
 
@@ -35,10 +32,10 @@ exclude = [
 #   * alphanum: letters + numbers
 #   * hex: hexadecimal, from a to f and 0 to 9
 #   * custom string: will use any character from the provided value
-#id-charset = "alphanum"
+id-charset = "alphanum"
 
 # Length of the generated IDs.
-#id-length = 4
+id-length = 8
 
 # Letter case for the random IDs, among lower, upper or mixed.
 #id-case = "lower"

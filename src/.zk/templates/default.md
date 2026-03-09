@@ -1,16 +1,9 @@
 ---
 id: "{{id}}"
-created: "{{date:2006-01-02}}"
+date: {{format-date now "%Y-%m-%d %H:%M:%S"}}
+tags: [{{extra.tags}}]
 ---
 
 # {{title}}
 
 {{content}}
-
-## Links
-
-[[index]]
-
-## Tags
-
-#note

@@ -4,6 +4,5 @@ _default:
 todo:
     taskwarrior-tui --taskdata .task
 
-new:
-    cd src && nvim "$(date +%Y-%m-%d_%H-%M-%S).md"
-
+browse:
+    $EDITOR src/u8xuio4v-index.md
