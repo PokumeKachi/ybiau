@@ -5,4 +5,4 @@ todo:
     taskwarrior-tui --taskdata .task
 
 browse:
-    $EDITOR src/index-u8xuio4v.md
+    $EDITOR src/u8xuio4v-index.md
