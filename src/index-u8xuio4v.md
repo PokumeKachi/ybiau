@@ -1,9 +1,11 @@
 ---
 id: "u8xuio4v"
 date: 2026-03-09 07:37:58
-tags: []
+tags: [root, index]
 ---
 
 # Root Index
 
+[University](taq9dmd2)
 
+type shi
