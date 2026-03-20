@@ -17,7 +17,6 @@
                         zk
 
                         tectonic
-                        python313Packages.pylatexenc
 
                         imagemagick
                         librsvg
@@ -27,6 +26,11 @@
 
                         taskwarrior-tui
                         gitui
+
+                        texliveSmall
+                        texlivePackages.latexmk
+
+                        vivify
                     ];
                     common = {
                         buildInputs = libs;

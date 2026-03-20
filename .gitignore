@@ -1,3 +1,4 @@
 src/.zk/notebook.db
 .direnv/
 .env
+**/.artifacts/

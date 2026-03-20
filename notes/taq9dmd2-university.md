@@ -8,4 +8,4 @@ tags: []
 
 ## Preparations
 
-- [V-ACT](sclr5qk3)
+[V-ACT](sclr5qk3)
