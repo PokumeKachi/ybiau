@@ -6,6 +6,6 @@ tags: [math, algebra]
 
 # Sequence
 
-[Arithmetic Progression](b6wnyqet)
+[Arithmetic Progression](b6wnyqet.md)
 
-[Geometric Progression](bni746yx)
+[Geometric Progression](bni746yx.md)

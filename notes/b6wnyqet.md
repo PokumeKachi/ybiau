@@ -29,8 +29,8 @@ $(1; 2; 3; 4; ...)$
 
 - Let $C$ be a constant chosen at random.
     
-    $u_{n+C}+u_{n-C}=2\cdot u_n$
+    $u_{n+C}+u_{n-C}=2u_n$
 
 - Let $S_n$ be the sum of the entire sequence.
 
-    $S_n=(u_1+u_n)\cdot \frac{n}{2}$
+    $S_n=(u_1+u_n)\frac{n}{2}$

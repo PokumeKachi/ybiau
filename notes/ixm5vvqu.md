@@ -6,6 +6,6 @@ tags: [math, discrete-math]
 
 # Recurrence
 
-[First-order Linear Recurrence](royib4cu)
+[First-order Linear Recurrence](royib4cu.md)
 
 

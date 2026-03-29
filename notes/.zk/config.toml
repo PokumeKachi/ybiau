@@ -12,7 +12,7 @@
 default-title = "Untitled"
 
 # Template used to generate a note's filename, without extension.
-filename = "{{id}}-{{slug title}}"
+filename = "{{id}}"
 
 # The file extension used for the notes.
 extension = "md"
@@ -75,7 +75,7 @@ id-length = 8
 # Format used to generate links between notes.
 # Either "wiki", "markdown" or a custom template. Default is "markdown".
 # link-format = "[[{{metadata.id}}|{{title}}|{{path}}]]"
-link-format = "[{{title}}]({{metadata.id}})"
+link-format = "[{{title}}]({{metadata.id}}.md)"
 # Indicates whether a link's path will be percent-encoded.
 # Defaults to true for "markdown" format and false for "wiki" format.
 link-encode-path = false
