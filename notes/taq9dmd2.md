@@ -6,6 +6,8 @@ tags: []
 
 # University
 
-## Preparations
+## Preparation
 
-[V-ACT](sclr5qk3)
+[Curriculum Overview](3zmq9nl8.md)
+
+[V-ACT](sclr5qk3.md)
