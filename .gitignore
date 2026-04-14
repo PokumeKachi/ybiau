@@ -1,4 +1,4 @@
-**/notebook.db
+**/.zk/notebook.db
 .direnv/
 .env
 **/.artifacts/
