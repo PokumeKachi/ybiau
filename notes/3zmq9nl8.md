@@ -21,7 +21,7 @@ tags: []
 - Coordinate plane
 
     Line
-    
+
     Circle
 
     The three conic sections
@@ -74,5 +74,19 @@ tags: []
     Extrama
 
     Asymptote
+
 - Vector in coordinate space
 - Grouped data
+- Antiderivative
+- Integral
+- Coordinate space
+
+    Line
+
+    Plane
+
+    Sphere
+
+    Angle
+
+- Conditional probability
