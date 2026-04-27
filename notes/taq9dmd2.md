@@ -11,3 +11,14 @@ tags: []
 [Curriculum Overview](3zmq9nl8.md)
 
 [V-ACT](sclr5qk3.md)
+
+## APCS prep
+
+- CLRS
+- Code complete
+- Effective modern CPP
+- CSAPP
+
+- Calculus 1
+- Calculus 2
+- Linear Algebra

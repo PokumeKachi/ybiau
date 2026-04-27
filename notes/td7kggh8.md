@@ -20,6 +20,8 @@ tags: []
 
 - Linux tinkering
     - [ ] Install Gentoo Linux
+    - [ ] Switch to Zsh
+    - [ ] Switch to Qutebrowser
     - [ ] Convert my Nix configs to Gentoo
     - [ ] Write a WM in Smithay
     - [ ] Setup lesspipe
