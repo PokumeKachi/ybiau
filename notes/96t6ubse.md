@@ -6,7 +6,7 @@ tags: []
 
 # Math
 
-## Structure
+## Topics
 
 - [Sequence](267mkupr.md)
 - [Recurrence](ixm5vvqu.md)

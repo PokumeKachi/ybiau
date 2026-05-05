@@ -51,5 +51,6 @@ tags: []
         - [ ] Sew a utility jacket
     - 3D Print
         - [ ] A key chain container for my lego doggo
+        - [ ] Design my own ergomech keyboard
 
 - [ ] Clean up YouTube Watch later
