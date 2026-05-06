@@ -42,7 +42,8 @@ tags: []
     - [ ] Soldering kit
     - [ ] Earbuds
     - [ ] Portable sewing machine
-    - [ ] TV board
+    - [x] TV board
+        - [ ] Scrapped because the board will now be sourced for free electronic parts instead.
 
 - Hobby
     - Guitar
@@ -52,5 +53,4 @@ tags: []
     - 3D Print
         - [ ] A key chain container for my lego doggo
         - [ ] Design my own ergomech keyboard
-
-- [ ] Clean up YouTube Watch later
+    - [ ] Clean up YouTube Watch later
