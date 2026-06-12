@@ -1,7 +1,7 @@
 ---
 id: "267mkupr"
 date: 2026-03-10 20:03:03
-tags: [math, algebra]
+tags: [math/algebra]
 ---
 
 # Sequence

@@ -3,13 +3,12 @@ id: "i1mfwy58"
 date: 2026-03-20 20:33:37
 tags:
     [
-        math,
+        math/algebra,
         coordinate-geometry,
         vector,
         logarithm,
         quadratic-polynomial,
         exponential-equation,
-        algebra,
     ]
 ---
 

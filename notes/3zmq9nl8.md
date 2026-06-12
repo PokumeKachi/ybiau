@@ -77,7 +77,6 @@ tags: []
 
 - Vector in coordinate space
 - Grouped data
-- Antiderivative
 - Integral
 - Coordinate space
 

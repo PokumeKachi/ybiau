@@ -11,7 +11,8 @@ tags: [test]
 ### Empire Team
 
 - [30 Days To 900+ V-ACT](https://empire.edu.vn/khoa-hoc/30-ngay-chinh-phuc-900-v-act--1772360812935)
-- [Mock Test 4](djufblp6.md)
+- [Mock Test 4 - Take 1](djufblp6.md)
+- [Mock Test 4 - Take 2](c2tvp70c.md)
 
 ## Math
 
