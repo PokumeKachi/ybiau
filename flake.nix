@@ -1,6 +1,6 @@
 {
-    description = "description";
-    inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
+    description = "ybiau dependencies";
+    inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
     outputs =
         { self, nixpkgs }:
         let
@@ -31,6 +31,8 @@
                         texlivePackages.latexmk
 
                         vivify
+
+                        just
                     ];
                     common = {
                         buildInputs = libs;
@@ -47,24 +49,6 @@
                 };
         in
         {
-            packages = forAllSystems (
-                system:
-                let
-                    ps = perSystem system;
-                in
-                {
-                    default = ps.pkgs.rustPlatform.buildRustPackage (
-                        ps.common
-                        // {
-                            pname = "package-name";
-                            version = "0.1.0";
-                            src = ps.pkgs.lib.cleanSource ./.;
-                            cargoLock.lockFile = ./Cargo.lock;
-                        }
-                    );
-                }
-            );
-
             devShells = forAllSystems (
                 system:
                 let
@@ -77,8 +61,6 @@
                             shellHook = ''
                                 export SHELL=${ps.pkgs.bashInteractive}/bin/bash
                                 export LD_LIBRARY_PATH=${ps.pkgs.lib.makeLibraryPath ps.libs}:$LD_LIBRARY_PATH
-
-                                alias n='just new'
                             '';
                         }
                     );
