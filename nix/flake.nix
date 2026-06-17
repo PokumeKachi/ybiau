@@ -13,7 +13,7 @@
                     pkgs = import nixpkgs { inherit system; };
                     libs = with pkgs; [
                     ];
-                    tools = with pkgs; [
+                    buildTools = with pkgs; [
                         zk
 
                         tectonic
@@ -36,14 +36,14 @@
                     ];
                     common = {
                         buildInputs = libs;
-                        nativeBuildInputs = tools;
+                        nativeBuildInputs = buildTools;
                     };
                 in
                 {
                     inherit
                         pkgs
                         libs
-                        tools
+                        buildTools
                         common
                         ;
                 };
