@@ -6,3 +6,7 @@
 - The index note is the source of truth, the center of my life, from there, branch out and explore all the links.
 
 - The knowledge is compiled into a LaTeX book (book/) for I am a performative male.
+
+## Usage
+
+- After cloning the repo, run `zk index --notebook-dir=notes` (or `:ZkIndex` in (neo)vim) to update the indexes of the notebook.
