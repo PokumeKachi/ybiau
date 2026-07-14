@@ -5,4 +5,4 @@ todo:
     taskwarrior-tui --taskdata .task
 
 browse:
-    $EDITOR notes/u8xuio4v.md
+    ${EDITOR:-vi} notes/u8xuio4v.md
