@@ -6,6 +6,6 @@ tags: [programming, algorithms]
 
 # Introduction to Algorithms (4th Ed.)
 
-- ISBN: 978-0262046305
+- ISBN: 978-0-262-04630-5
 
 

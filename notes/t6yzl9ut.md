@@ -7,3 +7,4 @@ tags: []
 # Books
 
 - [Introduction to Algorithms (4th Ed.)](2zox78qw.md)
+- [Calculus Early Transcendentals (9th Ed.)](yzwomndp.md)
