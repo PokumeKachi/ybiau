@@ -26,7 +26,7 @@ Corne[Finish the Corne keyboard]-->Rust[Learn Rust]
 
 Corne-->SvelteKit[Learn SvelteKit]
 
-Corne-->Security[Set up Syncthing and KeePassXC]
+Corne-->Security[Set up Syncthing and KeePassXC and HomeBank]
 
 Sewing-->SewingExpense{Buy a kit}
 

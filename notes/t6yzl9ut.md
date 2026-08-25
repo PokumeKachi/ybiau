@@ -8,3 +8,6 @@ tags: []
 
 - [Introduction to Algorithms (4th Ed.)](2zox78qw.md)
 - [Calculus Early Transcendentals (9th Ed.)](yzwomndp.md)
+
+- Code The Hidden Language Of Computer Hardware And Software 
+- SICP (Structure and Interpretation of Computer Programs)
