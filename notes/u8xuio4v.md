@@ -10,7 +10,11 @@ tags: [root, index]
 
 [To-do](td7kggh8.md)
 
+- Buy a Bose QuietComfort 45 Later
+
 [Drawing In This Repo](9qpx6l55.md)
+
+[Story Of My Life](j6r102e4.md)
 
 ## Knowledge
 

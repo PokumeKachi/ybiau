@@ -11,9 +11,9 @@ tags: []
 ### For my passion
 
 ```mermaid
-graph TB
+graph LR
 
-Corne[Finish the Corne keyboard]-->Rust[Learn Rust]
+Rust[Learn Rust]
 
     Rust-->Konfigkoll[Contribute to Konfigkoll]
 
@@ -21,21 +21,23 @@ Corne[Finish the Corne keyboard]-->Rust[Learn Rust]
 
             Dotfiles-->Zsh[Configure Zsh]
             Dotfiles-->Qute[Configure Qutebrowser]
+            Dotfiles-->Security[Set up Syncthing and KeePassXC and HomeBank]
 
     Rust-->Sojua[Develop Sojua]
 
-Corne-->SvelteKit[Learn SvelteKit]
+SvelteKit[Learn SvelteKit]
+    SvelteKit-->Vercel[Polish PokumeKahi.Vercel.App]
+        Vercel-->LoiMon[Develop LoiMon]
 
-Corne-->Security[Set up Syncthing and KeePassXC and HomeBank]
 
-Sewing-->SewingExpense{Buy a kit}
+Sew{Buy a sewing kit}
 
-    SewingExpense-->Personal[Make personally branded clothes like socks, cargo pants, cargo shorts, T-shirts, field jackets]
+    Sew-->Personal[Make personally branded clothes like socks, cargo pants, cargo shorts, T-shirts, field jackets]
         Personal-->Jacket[Make a utility jacket]
 
-Guitar-->GuitarExpense{Buy a guitar}
+Guitar{Buy a guitar}
 
-Photography-->PhotoExpense{Buy a camera, Canon EOS R50}
+Photo{Buy a camera, Canon EOS R50}
 ```
 
 ### For my career
@@ -52,8 +54,7 @@ CompProg[Revise for Competitive Programming]
 
     CompProg-->USACO[Read USACO Guide Bronze]
     CompProg-->CSES[Read CSES Introductory Problems]
-    CompProg-->Rating[Solve 800-rated problems]
-
+    CompProg-->Rating[Solve 1000-rated problems]
 ```
 
 ### For myself
@@ -83,22 +84,15 @@ end
 
 - [ ] Coding
     - [ ] Review Tai's DMs on Instagram for coding knowledge
-    - [ ] Rewrite PokumeKachi.web.app
     - [ ] Write my own Lua-Rust hybrid programming language
-    - [ ] Work on LoiMon.com
-    - [ ] Write a NeoVim plugin providing visual feedback when completing a keymap
 
 - Linux tinkering
     - [ ] Write a WM in Smithay
     - [ ] Setup lesspipe
     - [ ] Setup kitty images in NeoVim
-    - [ ] Clean NeoVim config
     - [ ] Try QuickShells out (Noctalia, Caelestia)
     - [ ] Write HTMX web server for my ThinkPad T410
     - [ ] Maybe learn Helix Text Editor
-    - [ ] SHOP new WiFi card
-    - [ ] SHOP VPS
-    - [ ] SHOP Domain name
 
 - Hobby
     - [ ] PROJECT Design my own ergomech keyboard

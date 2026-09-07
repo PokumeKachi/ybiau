@@ -34,17 +34,6 @@ tags: []
 - Stylus
 - 4 GB/64 GB
 
-### Dorm-finding
-
-- Bus stops:
-    * 06
-    * 38
-
-    * 45
-    * 46
-    * 56
-    * 139
-
 ### Then....
 
 - CLRS
