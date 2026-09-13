@@ -9,5 +9,19 @@ tags: []
 - [Introduction to Algorithms (4th Ed.)](2zox78qw.md)
 - [Calculus Early Transcendentals (9th Ed.)](yzwomndp.md)
 
-- Code The Hidden Language Of Computer Hardware And Software 
+- Code The Hidden Language Of Computer Hardware And Software
 - SICP (Structure and Interpretation of Computer Programs)
+
+- CLRS
+
+- Code complete
+
+- Effective modern CPP
+
+- CSAPP
+
+- Calculus 1
+
+- Calculus 2
+
+- Linear Algebra

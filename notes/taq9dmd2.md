@@ -6,14 +6,11 @@ tags: []
 
 # University
 
-
 ## Post-entrance prep
 
-- CLRS
-- Code complete
-- Effective modern CPP
-- CSAPP
 
-- Calculus 1
-- Calculus 2
-- Linear Algebra
+[Math](96t6ubse.md)
+
+[Physics](40mgd4hh.md)
+
+[Books](t6yzl9ut.md)

@@ -6,4 +6,8 @@ tags: []
 
 # High School
 
-## Type shit
+[Curriculum Overview](3zmq9nl8.md)
+
+[V-ACT](sclr5qk3.md)
+
+[THPTQG](3rweiivn.md)
