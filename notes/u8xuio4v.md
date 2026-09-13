@@ -10,8 +10,6 @@ tags: [root, index]
 
 [To-do](td7kggh8.md)
 
-- Buy a Bose QuietComfort 45 Later
-
 [Drawing In This Repo](9qpx6l55.md)
 
 [Story Of My Life](j6r102e4.md)
@@ -27,6 +25,14 @@ tags: [root, index]
 ## Career
 
 [University](taq9dmd2.md)
+
+[High School](akv8gozh.md)
+
+[Curriculum Overview](3zmq9nl8.md)
+
+[V-ACT](sclr5qk3.md)
+
+[THPTQG](3rweiivn.md)
 
 ## Random
 
