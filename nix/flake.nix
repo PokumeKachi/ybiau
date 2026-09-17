@@ -11,9 +11,24 @@
                 system:
                 let
                     pkgs = import nixpkgs { inherit system; };
+                    customTex = pkgs.texlive.combine {
+                        inherit (pkgs.texlive)
+                            scheme-small
+                            latexindent
+                            latexmk
+                            ;
+
+                        inherit (pkgs.texlivePackages)
+                            amsmath
+                            amsfonts
+                            ;
+                    };
+
                     libs = with pkgs; [
                     ];
                     buildTools = with pkgs; [
+                        customTex
+                        just
                         zk
 
                         tectonic
@@ -24,15 +39,7 @@
                         nodejs
                         yarn
 
-                        taskwarrior-tui
-                        gitui
-
-                        texliveSmall
-                        texlivePackages.latexmk
-
                         vivify
-
-                        just
                     ];
                     common = {
                         buildInputs = libs;
