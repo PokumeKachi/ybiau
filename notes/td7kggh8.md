@@ -22,12 +22,16 @@ Rust[Learn Rust]
             Dotfiles-->Zsh[Configure Zsh]
             Dotfiles-->Qute[Configure Qutebrowser]
             Dotfiles-->Security[Set up Syncthing and KeePassXC and HomeBank]
+            Dotfiles-->Tiling[Set up Niri and Noctalia]
 
     Rust-->Sojua[Develop Sojua]
 
 SvelteKit[Learn SvelteKit]
     SvelteKit-->Vercel[Polish PokumeKahi.Vercel.App]
         Vercel-->LoiMon[Develop LoiMon]
+
+Kotlin[Learn Kotlin]
+    Kotlin-->UltraCam[Build an app that uses OpenCV to suggest composition styles when taking photos]
 
 
 Sew{Buy a sewing kit}
@@ -83,17 +87,10 @@ end
 ## List
 
 - [ ] Coding
-    - [ ] Review Tai's DMs on Instagram for coding knowledge
     - [ ] Write my own Lua-Rust hybrid programming language
 
 - Linux tinkering
     - [ ] Write a WM in Smithay
     - [ ] Setup lesspipe
     - [ ] Setup kitty images in NeoVim
-    - [ ] Try QuickShells out (Noctalia, Caelestia)
     - [ ] Write HTMX web server for my ThinkPad T410
-    - [ ] Maybe learn Helix Text Editor
-
-- Hobby
-    - [ ] PROJECT Design my own ergomech keyboard
-    - [ ] Clean up YouTube Watch later
