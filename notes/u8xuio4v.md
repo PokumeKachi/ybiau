@@ -13,6 +13,8 @@ tags: [root, index]
 ## Knowledge
 
 [University](taq9dmd2.md)
+[Competitive Programming](q19oh7m1.md)
+[Books](t6yzl9ut.md)
 
 ## Random
 

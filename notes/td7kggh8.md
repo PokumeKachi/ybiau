@@ -10,6 +10,8 @@ tags: []
 
 ### For my passion
 
+- Instead of Konfigkoll we have the options of pyinfra, Ansible, Salt, Puppet, Chef, Fabric
+
 ```mermaid
 graph LR
 
@@ -43,26 +45,7 @@ Guitar{Buy a guitar}
 
 Photo{Buy a camera, Canon EOS R50}
 ```
-
-### For my career
-
-```mermaid
-graph TB
-
-Ebook{Buy an E-Reader}-->Syllabus[Read the Syllabus]
-
-    Syllabus-->Calculus[Study Calculus by James Stewart]
-    Syllabus-->Physics[Study Fundamentals of Physics]
-
-CompProg[Revise for Competitive Programming]
-
-    CompProg-->USACO[Read USACO Guide Bronze]
-    CompProg-->CSES[Read CSES Introductory Problems]
-    CompProg-->Rating[Solve 1000-rated problems]
-```
-
 ### For myself
-
 ```mermaid
 graph TB
 
