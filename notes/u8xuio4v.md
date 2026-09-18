@@ -16,6 +16,10 @@ tags: [root, index]
 [Competitive Programming](q19oh7m1.md)
 [Books](t6yzl9ut.md)
 
+## Projects
+
+[Optical Computer](wsm081q1.md)
+
 ## Random
 
 [Poems](b26d69n2.md)
