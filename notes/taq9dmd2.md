@@ -8,7 +8,4 @@ tags: []
 
 ## Post-entrance prep
 
-
-[Math](96t6ubse.md)
-
-[Physics](40mgd4hh.md)
+[Lectures](p9o5fc8h.md)

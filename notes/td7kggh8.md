@@ -10,21 +10,20 @@ tags: []
 
 ### For my passion
 
-- Instead of Konfigkoll we have the options of pyinfra, Ansible, Salt, Puppet, Chef, Fabric
-
 ```mermaid
 graph LR
 
+Dotfiles[Setup Dotfiles]
+
+    Dotfiles-->Zsh[Configure Zsh]
+    Dotfiles-->Qute[Configure Qutebrowser]
+    Dotfiles-->Security[Set up Syncthing and KeePassXC and HomeBank]
+    Dotfiles-->Tiling[Set up Niri and Noctalia]
+
 Rust[Learn Rust]
 
-    Rust-->Konfigkoll[Contribute to Konfigkoll]
+    Rust-->CompProg[Revise for ICPC and OLP]
 
-        Konfigkoll-->Dotfiles[Set up Arch Dotfiles using Nix + Home Manager + GNU Stow + Konfigkoll]
-
-            Dotfiles-->Zsh[Configure Zsh]
-            Dotfiles-->Qute[Configure Qutebrowser]
-            Dotfiles-->Security[Set up Syncthing and KeePassXC and HomeBank]
-            Dotfiles-->Tiling[Set up Niri and Noctalia]
 
     Rust-->Sojua[Develop Sojua]
 
@@ -45,7 +44,9 @@ Guitar{Buy a guitar}
 
 Photo{Buy a camera, Canon EOS R50}
 ```
+
 ### For myself
+
 ```mermaid
 graph TB
 

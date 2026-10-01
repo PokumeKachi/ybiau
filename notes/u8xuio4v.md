@@ -13,7 +13,7 @@ tags: [root, index]
 ## Knowledge
 
 [University](taq9dmd2.md)
-[Competitive Programming](q19oh7m1.md)
+[Olympics](6xipq0z1.md)
 [Books](t6yzl9ut.md)
 
 ## Projects
@@ -33,4 +33,3 @@ tags: [root, index]
 ## Trash Bin
 
 [High School](akv8gozh.md)
-

@@ -11,3 +11,7 @@ tags: []
 [V-ACT](sclr5qk3.md)
 
 [THPTQG](3rweiivn.md)
+
+[Math](96t6ubse.md)
+
+[Physics](40mgd4hh.md)
