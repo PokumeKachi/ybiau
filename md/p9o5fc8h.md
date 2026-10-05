@@ -15,3 +15,8 @@ tags: []
 ## CS160
 
 - [Lecture 1](fr1h7bix.md)
+- [Lecture 2](su6xavq8.md)
+
+## MTH251
+
+- [Lecture 1](2gyamw7a.md)

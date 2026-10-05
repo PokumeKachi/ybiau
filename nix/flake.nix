@@ -29,17 +29,19 @@
                     buildTools = with pkgs; [
                         customTex
                         just
+
                         zk
-
-                        tectonic
-
-                        imagemagick
-                        librsvg
 
                         nodejs
                         yarn
 
+                        tectonic
+                        imagemagick
+                        librsvg
                         vivify
+
+                        typst
+                        typstwriter
                     ];
                     common = {
                         buildInputs = libs;

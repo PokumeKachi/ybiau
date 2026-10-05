@@ -2,4 +2,7 @@ _default:
     @just --choose
 
 browse:
-    ${EDITOR:-vi} notes/u8xuio4v.md
+    ${EDITOR:-vi} md/u8xuio4v.md
+
+typ:
+    ${EDITOR:-vi} typ/main.typ

@@ -21,7 +21,7 @@ tags: []
 - This field concerns the motion of objects that are large relative to atom (too small particles follow the rules of Quantum Mechanics instead) and very slow relative to the speed of light (too fast objects follow the rules of Special Relativity)
     - Also too dense objects (objects with too strong gravitational fields like black holes, the early Universe) follow the rules of General Relativity instead
 
-# Measurement
+## Measurement
 
 - Classical mechanics aims to predict qualitatively and quantitatively the results of experiments.
 - In order to be quantitative, we need to have measurements for quantities.
@@ -60,14 +60,14 @@ TODO
 
 TODO
 
-# Scalar and vector
+## Scalar and vector
 
 TODO
 
-# Dynamics
+## Dynamics
 
 
-## Introduction
+### Introduction
 
 - Kinematics is a branch of mechanics that is only concerned with describing motion (displacement, velocity, acceleration), but not the cause (force, mass, energy).
 - Dynamics is the branch of mechanics that builds upon kinematics by including the causes of motion.
@@ -76,18 +76,18 @@ TODO
     * One-dimensional motion: Motion along a straight line
     * Particle model: We are only concerned with describing the object as a particle (a point-like object) regardless of its size (we do not care about its center of mass, rotation,..)
 
-## Position, distance, displacement
+### Position, distance, displacement
 
 TODO
 
-## Speed, velocity
+### Speed, velocity
 
 TODO
 
-### Instantaneous velocity
+#### Instantaneous velocity
 
 TODO
 
-### Uniform velocity
+#### Uniform velocity
 
 TODO
