@@ -1,5 +1,19 @@
+#import "macros.typ": *
+#include "title.typ"
+
+#pagebreak()
+
 #outline()
 
-= Main note goes here
+#set heading(numbering: "1.1.1.")
 
-#include "math/main.typ"
+#chapter("Math")
+#chapter("Sewing")
+
+#align(center + horizon)[
+    #text(size: 16pt, weight: "bold")[Colophon]
+
+    These notes were written and maintained by Nguyen Cao Long Khanh.
+
+    Typeset with Typst.
+]
