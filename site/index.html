@@ -42,7 +42,7 @@
             GlobalWorkerOptions.workerSrc =
                 "https://cdn.jsdelivr.net/npm/pdfjs-dist@6.3.289/build/pdf.worker.mjs";
 
-            const pdf = await getDocument("/main.pdf").promise;
+            const pdf = await getDocument({ url: "/main.pdf" }).promise;
             const container = document.querySelector("#pdf");
 
             for (let i = 1; i <= pdf.numPages; i++) {
