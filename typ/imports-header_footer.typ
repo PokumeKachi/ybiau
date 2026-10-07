@@ -55,15 +55,6 @@
             align(left)[
                 #page-headings-text
             ],
-
-            align(right)[
-                #text(
-                    size: 8.5pt,
-                    fill: rgb("#64748b"),
-                    weight: "semibold",
-                    tracking: 0.05em,
-                )[ybiau]
-            ],
         )
         #v(4pt)
         #line(length: 100%, stroke: 0.5pt + rgb("#e2e8f0"))
