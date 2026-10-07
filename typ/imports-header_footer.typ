@@ -83,7 +83,10 @@
             align: horizon,
 
             align(left + horizon)[
-                ybiau
+                #link(<first-page>)[#box(inset: (x: 2pt, y: 2pt))[#text(
+                    fill: luma(20),
+                    weight: "bold",
+                )[ybiau]]]
                 #if plain-text(ch-title) != "" [
                     #text[>]
                     #text(
