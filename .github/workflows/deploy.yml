@@ -1,0 +1,26 @@
+name: Build and deploy
+
+on:
+  push:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: typst-community/setup-typst@v5
+
+      - name: Build
+        run: |
+          mkdir -p site
+          typst compile typ/main.typ site/main.pdf
+
+      - name: Deploy to Vercel
+        run: |
+          npm install --global vercel
+          vercel deploy site --prod --yes --token="${{ secrets.VERCEL_TOKEN }}"
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
