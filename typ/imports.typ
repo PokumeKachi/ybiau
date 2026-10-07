@@ -31,7 +31,7 @@
         #text(fill: luma(110), size: 8.5pt, style: "italic")[est. 2026]
     ]
 
-    align(center + bottom)[
+    align(center + top)[
         #outline(indent: 1.5em)
     ]
 
