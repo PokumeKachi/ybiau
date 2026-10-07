@@ -1,3 +1,6 @@
+#include "includes.typ"
+#import "imports.typ": *
+
 = Stitches
 - Backstitch
 - Running stitch
