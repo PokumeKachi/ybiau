@@ -1,7 +1,7 @@
 {
     "type": "module",
     "scripts": {
-        "build": "esbuild src/analytics.js --bundle --format=esm --outfile=site/analytics.js"
+        "build": "esbuild analytics.js --bundle --format=esm --outfile=output/analytics.js"
     },
     "dependencies": {
         "@vercel/analytics": "^2.0.1"

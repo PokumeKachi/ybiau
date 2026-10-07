@@ -16,18 +16,16 @@ jobs:
           node-version: 24
           cache: npm
 
-      - name: Install dependencies
-        run: npm ci
-
       - name: Build
         run: |
-          mkdir -p site
-          typst compile typ/main.typ site/main.pdf
+          typst compile typ/main.typ site/output/main.pdf
+          cd site
+          npm ci
           npm run build
 
       - name: Deploy to Vercel
         run: |
-          npx vercel deploy site --prod --yes --token="${{ secrets.VERCEL_TOKEN }}"
+          npx vercel deploy site/output --prod --yes --token="${{ secrets.VERCEL_TOKEN }}"
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
