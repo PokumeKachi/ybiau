@@ -34,6 +34,9 @@
         <main id="pdf"></main>
 
         <script type="module">
+            import { inject } from "@vercel/analytics";
+            inject();
+
             import {
                 getDocument,
                 GlobalWorkerOptions,
@@ -42,7 +45,17 @@
             GlobalWorkerOptions.workerSrc =
                 "https://cdn.jsdelivr.net/npm/pdfjs-dist@6.3.289/build/pdf.worker.mjs";
 
-            const pdf = await getDocument({ url: "/main.pdf" }).promise;
+            const response = await fetch("/main.pdf");
+
+            if (!response.ok) {
+                throw new Error(`Failed to fetch PDF: ${response.status}`);
+            }
+
+            const data = await response.arrayBuffer();
+
+            const pdf = await getDocument({
+                data,
+            }).promise;
             const container = document.querySelector("#pdf");
 
             for (let i = 1; i <= pdf.numPages; i++) {

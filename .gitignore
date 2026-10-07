@@ -3,3 +3,4 @@
 .env
 **/.artifacts/
 resources/
+node_modules/
