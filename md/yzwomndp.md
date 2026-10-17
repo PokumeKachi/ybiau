@@ -14,23 +14,23 @@ tags: [mathematics, calculus, textbook]
 
 - Given a function $f$, for every input $x$ in the domain (set D) you get one and exactly one output $f(x)$
 
-    * Domain: The set of all allowed inputs 
+    - Domain: The set of all allowed inputs
 
-    * Codomain: The set of all allowed outputs
+    - Codomain: The set of all allowed outputs
 
-    * Range: The set of all actual outputs, a subset of the codomain that contains the values $f(x)$ for all $x$ in the domain
+    - Range: The set of all actual outputs, a subset of the codomain that contains the values $f(x)$ for all $x$ in the domain
 
-        + A symbol representing a number in the domain of $f$ is called an independent variable
+        - A symbol representing a number in the domain of $f$ is called an independent variable
 
-        + A symbol representing a number in the range of $f$ is called a dependent variable
+        - A symbol representing a number in the range of $f$ is called a dependent variable
 
-        + In other words, $f(x)$ is dependent, and $x$ is independent
+        - In other words, $f(x)$ is dependent, and $x$ is independent
 
 ### Representing a function
 
 - Verbal representation: A description of the function in words
 
-    *Ex: For $y=2x+1$ we stay "Take the input, multiply it by 2 and add 1")**
+    _Ex: For $y=2x+1$ we stay "Take the input, multiply it by 2 and add 1")_*
 
 - Numerical representation: A table with two columns (one for the dependent var and one for the independent var), with each row being the correlated values of the two vars
 
@@ -48,17 +48,17 @@ tags: [mathematics, calculus, textbook]
 
 - For every number $x$ in the domain of function $f$
 
-    * If $f(x)=f(-x)$, then $f$ is an even function and its graph is symmetric through the $Oy$ axis.
+    - If $f(x)=f(-x)$, then $f$ is an even function and its graph is symmetric through the $Oy$ axis.
 
-    * If $f(x)=-f(-x)$, then $f$ is an odd function and its graph is symmetric through the $O$ point.
+    - If $f(x)=-f(-x)$, then $f$ is an odd function and its graph is symmetric through the $O$ point.
 
 ### Increasing and Decreasing functions
 
 - On an interval $I$
 
-    * If, for any $x_1, x_2 \in I$ with $x_1 < x_2$, we have $f(x_1) < f(x_2)$, then $f$ is increasing on $I$.
+    - If, for any $x_1, x_2 \in I$ with $x_1 < x_2$, we have $f(x_1) < f(x_2)$, then $f$ is increasing on $I$.
 
-    * Conversely, if, for any $x_1, x_2 \in I$ with $x_1 < x_2$, we have $f(x_1) > f(x_2)$, then $f$ is decreasing on $I$.
+    - Conversely, if, for any $x_1, x_2 \in I$ with $x_1 < x_2$, we have $f(x_1) > f(x_2)$, then $f$ is decreasing on $I$.
 
 ### Mathematical Models
 

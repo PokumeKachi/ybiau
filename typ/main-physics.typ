@@ -2,4 +2,5 @@
 #import "imports.typ": *
 
 #subsection("Cheatsheet", "main-physics-cheatsheet.typ")
+#subsection("SPhO", "main-physics-spho.typ")
 #subsection("PH211 - General Physics I", "main-physics-ph211.typ")

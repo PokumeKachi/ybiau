@@ -38,7 +38,7 @@
         fill: rgb("#f0f9ff"),
         stroke-color: rgb("#0284c7"),
         title-color: rgb("#0369a1"),
-        label: "Exercise",
+        label: "Problem",
         number: context ex-counter.display(),
         body: body,
     )

@@ -179,3 +179,7 @@ map("n", "zko", function()
 
     vim.cmd.edit(vim.fn.fnameescape(target_path))
 end, { desc = "Open note referenced on current line" })
+
+map("n", "zkgg", function()
+    vim.cmd.edit("typ/main.typ")
+end, { desc = "Back to main note" })

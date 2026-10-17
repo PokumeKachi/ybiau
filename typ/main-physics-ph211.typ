@@ -52,3 +52,35 @@
     $a(t)approx a(1.05)=21.72dot 1.05=22.806approx 22.81m\/s^2$
 ]
 
+= Lecture 4 (2026-10-08)
+
+- Angular motion CAN be one-dimensional. The angle is one degree of freedom, and
+    that angle is considered an angular coordinate!
+
+$arrow(v)=|arrow(v_x)|hat(i)+|arrow(v_y)|hat(j)$
+
+== Projectile motion
+
+- Air friction is ignored
+- Rotation of the earth is ignored
+    - Then the object will follow a parabolic path
+
+#problem[
+    A long jumper (Fig. 4.11) leaves the ground at an angle of 20.0° above
+    the horizontal and at a speed of 11.0 m/s.
+
+(A) How far does he jump in the horizontal direction?
+(B) What is the maximum height reached
+]
+
+#solution[
+(A)
+
+The total amount of time it takes him to fall down to the ground again after jumping is equal to the time after which $d_y=0$ with $d_y=v_0_y t - 1/2g t^2$.
+
+We have $v_0_y= v_0dot sin(theta)=11.0dot sin(20.0)approx 3.8 m\/s$, $g=9.8m\/s$.
+
+So $t_("ground")=0.8s$
+
+So $d_x_(max)=v_0_x dot t_("ground")approx 8.3m ("Rounding error is inevitable")$
+]
