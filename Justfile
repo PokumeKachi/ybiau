@@ -1,8 +1,7 @@
 _default:
-    @just --choose
-
-browse:
-    ${EDITOR:-vi} md/u8xuio4v.md
-
-typ:
-    ${EDITOR:-vi} typ/main.typ
+    #!/usr/bin/env bash
+    type=$(printf 'Markdown\nTypst\n' | fzf --prompt='Browse type: ') || exit 0
+    case "$type" in
+        Markdown) ${EDITOR:-vi} md/u8xuio4v.md ;;
+        Typst)    ${EDITOR:-vi} typ/main.typ ;;
+    esac
