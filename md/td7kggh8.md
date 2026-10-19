@@ -15,7 +15,7 @@ graph LR
 
 Dotfiles[Setup Dotfiles]
 
-    Dotfiles-->Zsh[Configure Zsh]
+    Dotfiles-->Fish[Configure Fish]
     Dotfiles-->Qute[Configure Qutebrowser]
     Dotfiles-->Security[Set up Syncthing and KeePassXC and HomeBank]
     Dotfiles-->Tiling[Set up Niri and Noctalia]
