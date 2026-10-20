@@ -18,6 +18,23 @@ NUS, NTU, DTU CS&E, EMECS
 
 = Jobs
 
+== Career paths
+
+- Backend / distributed systems
+- Systems programming
+- Embedded/IoT/robotics
+- Entrepreneurship
+    - Native app development (Game, full-stack web, mobile, desktop)
+
+== Complementary
+
+- DevOps / platform / SRE
+- Cybersecurity
+    - Application security
+    - Systems security
+- Data/ML/AI
+    - AI infrastructure/inference engineering
+
 == Freelance platforms
 
 - ZIDO
