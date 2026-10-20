@@ -19,6 +19,7 @@ tags: []
 ## Entertainment
 
 - Canon EOS R50
+- Canon ZV-1
 - Any acoustic guitar
 - Sewing: Socks, cargo pants, cargo shorts, T-shirts, field jackets
 - GameSir Nova 2 Lite
