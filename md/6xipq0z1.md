@@ -27,6 +27,8 @@ tags: []
 ## Cybersecurity
 
 - HCMUS_CTF: May - Jun
+- OverTheWire
+- picoCTF
 
 ## Hackathons
 

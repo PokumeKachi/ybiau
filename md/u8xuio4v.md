@@ -6,30 +6,71 @@ tags: [root, index]
 
 # Index
 
-## PINNED
+## W minus 0
 
-[To-do](td7kggh8.md)
+- Hang out with NEC
+- Hang out with Panh
+    - Make a Pokemon card gift pouch for 20/10
+- Watch Loki S1 E2-6
+- Migrate notes to Typst
+    - Move blog notes to vercel.app
+- Revise for motorbike exam
+- GoGame
+    - Capture animation
+    - Avatar customization
+    - Invalid move sound
+- OLP SV: Just wing it
+
+## W minus 1
+
+- Slapjam: Implement a game in C++, in conjunction with the Modern C++ book
+- Revise for mid terms
+- Watch Loki S2 E1-3
+- Motorbike exam
+
+## W minus 2
+
+- Mid terms...
+
+## W minus 3
+
+- Find a book on proofwriting and rigorous math
+- Go further with C++ for GitHub Game Off
+- Watch Loki S2 E4-6
+- Watch Paddington and Ted
+
+## [Backlog](td7kggh8.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Knowledge
 
 [University](taq9dmd2.md)
-[Olympics](6xipq0z1.md)
-[Books](t6yzl9ut.md)
-
-## Projects
-
-[Optical Computer](wsm081q1.md)
 
 ## Random
 
-[Poems](b26d69n2.md)
-
-[Drawing In This Repo](9qpx6l55.md)
-
 [Story Of My Life](j6r102e4.md)
-
-[How To Fake Your MAC](fkms0bwp.md)
 
 ## Trash Bin
 
 [High School](akv8gozh.md)
+
+[Drawing In This Repo](9qpx6l55.md)

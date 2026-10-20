@@ -4,77 +4,50 @@ date: 2026-03-27 10:04:59
 tags: []
 ---
 
-# To-do
+# Backlog
 
-## Graph
+## Homelabbing
 
-### For my passion
+- Konfigkoll
+    - Fish
+    - Qutebrowser
+    - Syncthing, KeepassXC
+    - Niri, Noctalia
 
-```mermaid
-graph LR
+- HTMX, C++, Rust: Web server for Tailscale
 
-Dotfiles[Setup Dotfiles]
+## Entertainment
 
-    Dotfiles-->Fish[Configure Fish]
-    Dotfiles-->Qute[Configure Qutebrowser]
-    Dotfiles-->Security[Set up Syncthing and KeePassXC and HomeBank]
-    Dotfiles-->Tiling[Set up Niri and Noctalia]
+- Canon EOS R50
+- Any acoustic guitar
+- Sewing: Socks, cargo pants, cargo shorts, T-shirts, field jackets
+- GameSir Nova 2 Lite
+- Pokemon TCG cardistry
 
-Rust[Learn Rust]
+## Studying
 
-    Rust-->CompProg[Revise for ICPC and OLP]
+- Math: Calculus Early Trans
+- Physics: Fundamentals of Physics
+- CS:
+- [Olympics](6xipq0z1.md)
+- [Books](t6yzl9ut.md)
 
+## Projects
 
-    Rust-->Sojua[Develop Sojua]
+- [Optical Computer](wsm081q1.md)
 
-SvelteKit[Learn SvelteKit]
-    SvelteKit-->Vercel[Polish PokumeKahi.Vercel.App]
-        Vercel-->LoiMon[Develop LoiMon]
-
-Kotlin[Learn Kotlin]
-    Kotlin-->UltraCam[Build an app that uses OpenCV to suggest composition styles when taking photos]
-
-
-Sew{Buy a sewing kit}
-
-    Sew-->Personal[Make personally branded clothes like socks, cargo pants, cargo shorts, T-shirts, field jackets]
-        Personal-->Jacket[Make a utility jacket]
-
-Guitar{Buy a guitar}
-
-Photo{Buy a camera, Canon EOS R50}
-```
-
-### For myself
-
-```mermaid
-graph TB
-
-subgraph Strength
-    Gym
-    Marathon
-    Basketball
-end
-
-subgraph Survival
-    Drowning
-    Assault[Physical Assault]
-    Drugged[Being Drugged]
-end
-
-subgraph Health
-    Diet
-    Medications
-end
-```
-
-## List
-
-- [ ] Coding
-    - [ ] Write my own Lua-Rust hybrid programming language
-
-- Linux tinkering
-    - [ ] Write a WM in Smithay
-    - [ ] Setup lesspipe
-    - [ ] Setup kitty images in NeoVim
-    - [ ] Write HTMX web server for my ThinkPad T410
+- Rustlings exercises
+    - Rust
+- LoiMon (Supabase as Backend)
+    - SvelteKit
+    - Rust
+    - Torrenting
+- Lua-Rust hybrid programming language
+    - LLVM
+- Smithay Wayland window manager
+    - Rust
+- UltraCam - Use OpenCV to suggest composition styles when taking photos
+    - Kotlin
+- Sojua - Bevy-based game
+    - Rust
+    - Bevy
