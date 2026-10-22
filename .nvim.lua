@@ -88,98 +88,115 @@ map("n", "zkb", function()
 		return
 	end
 
+	local prev_buf = vim.api.nvim_get_current_buf()
+	local prev_path = vim.api.nvim_buf_get_name(prev_buf)
+
 	vim.cmd.edit(full_path)
+
+	if vim.fs.normalize(prev_path) ~= vim.fs.normalize(full_path) then
+		Snacks.bufdelete(prev_buf)
+	end
 end, { desc = "Go back to parent note" })
 
 map("n", "zko", function()
-    local line = vim.api.nvim_get_current_line()
-    local dir = vim.fn.expand("%:p:h")
-    local ext = vim.fn.expand("%:e")
-    if ext == "" then
-        ext = "typ"
-    end
+	local line = vim.api.nvim_get_current_line()
+	local dir = vim.fn.expand("%:p:h")
+	local ext = vim.fn.expand("%:e")
+	if ext == "" then
+		ext = "typ"
+	end
 
-    local candidates = {}
+	local candidates = {}
 
-    -- 1. Check exact file/path under the cursor
-    local cfile = vim.fn.expand("<cfile>")
-    if cfile and cfile ~= "" then
-        table.insert(candidates, cfile)
-    end
+	-- 1. Check exact file/path under the cursor
+	local cfile = vim.fn.expand("<cfile>")
+	if cfile and cfile ~= "" then
+		table.insert(candidates, cfile)
+	end
 
-    -- 2. Extract all quoted strings (single & double quotes)
-    for str in line:gmatch('["\']([^"\']+)["\']') do
-        table.insert(candidates, str)
-    end
+	-- 2. Extract all quoted strings (single & double quotes)
+	for str in line:gmatch("[\"']([^\"']+)[\"']") do
+		table.insert(candidates, str)
+	end
 
-    -- 3. Extract unquoted path-like words (e.g. filename.typ)
-    for word in line:gmatch("[%w_%-%./]+%.%w+") do
-        table.insert(candidates, word)
-    end
+	-- 3. Extract unquoted path-like words (e.g. filename.typ)
+	for word in line:gmatch("[%w_%-%./]+%.%w+") do
+		table.insert(candidates, word)
+	end
 
-    local target_path = nil
+	local target_path = nil
 
-    -- Pass 1: Find any candidate that already exists on disk
-    for _, cand in ipairs(candidates) do
-        cand = vim.trim(cand)
-        if cand ~= "" then
-            local path = vim.fs.normalize(dir .. "/" .. cand)
-            if vim.fn.filereadable(path) == 1 then
-                target_path = path
-                break
-            end
+	-- Pass 1: Find any candidate that already exists on disk
+	for _, cand in ipairs(candidates) do
+		cand = vim.trim(cand)
+		if cand ~= "" then
+			local path = vim.fs.normalize(dir .. "/" .. cand)
+			if vim.fn.filereadable(path) == 1 then
+				target_path = path
+				break
+			end
 
-            -- Check if file exists when appending default extension
-            if not cand:match("%.%w+$") then
-                local path_with_ext = path .. "." .. ext
-                if vim.fn.filereadable(path_with_ext) == 1 then
-                    target_path = path_with_ext
-                    break
-                end
-            end
-        end
-    end
+			-- Check if file exists when appending default extension
+			if not cand:match("%.%w+$") then
+				local path_with_ext = path .. "." .. ext
+				if vim.fn.filereadable(path_with_ext) == 1 then
+					target_path = path_with_ext
+					break
+				end
+			end
+		end
+	end
 
-    -- Pass 2: If no file exists on disk yet, prioritize candidates with file extensions
-    if not target_path then
-        for _, cand in ipairs(candidates) do
-            cand = vim.trim(cand)
-            if cand:match("%." .. ext .. "$") or cand:match("%.%w+$") then
-                target_path = vim.fs.normalize(dir .. "/" .. cand)
-                break
-            end
-        end
-    end
+	-- Pass 2: If no file exists on disk yet, prioritize candidates with file extensions
+	if not target_path then
+		for _, cand in ipairs(candidates) do
+			cand = vim.trim(cand)
+			if cand:match("%." .. ext .. "$") or cand:match("%.%w+$") then
+				target_path = vim.fs.normalize(dir .. "/" .. cand)
+				break
+			end
+		end
+	end
 
-    -- Pass 3: Fallback to the last quoted string (e.g., 2nd arg in #subsection("Title", "file"))
-    if not target_path then
-        local quoted = {}
-        for str in line:gmatch('["\']([^"\']+)["\']') do
-            table.insert(quoted, str)
-        end
-        if #quoted > 0 then
-            target_path = vim.fs.normalize(dir .. "/" .. quoted[#quoted])
-        end
-    end
+	-- Pass 3: Fallback to the last quoted string (e.g., 2nd arg in #subsection("Title", "file"))
+	if not target_path then
+		local quoted = {}
+		for str in line:gmatch("[\"']([^\"']+)[\"']") do
+			table.insert(quoted, str)
+		end
+		if #quoted > 0 then
+			target_path = vim.fs.normalize(dir .. "/" .. quoted[#quoted])
+		end
+	end
 
-    if not target_path then
-        vim.notify("No note reference or file found on current line", vim.log.levels.WARN)
-        return
-    end
+	if not target_path then
+		vim.notify("No note reference or file found on current line", vim.log.levels.WARN)
+		return
+	end
 
-    -- Ensure default extension is present
-    if not target_path:match("%.%w+$") then
-        target_path = target_path .. "." .. ext
-    end
+	-- Ensure default extension is present
+	if not target_path:match("%.%w+$") then
+		target_path = target_path .. "." .. ext
+	end
 
-    -- Notify if opening a new uncreated file
-    if vim.fn.filereadable(target_path) == 0 then
-        vim.notify("Opening new note: " .. vim.fn.fnamemodify(target_path, ":t"), vim.log.levels.INFO)
-    end
+	-- Notify if opening a new uncreated file
+	if vim.fn.filereadable(target_path) == 0 then
+		vim.notify(
+			"Opening new note: " .. vim.fn.fnamemodify(target_path, ":t"),
+			vim.log.levels.INFO
+		)
+	end
 
-    vim.cmd.edit(vim.fn.fnameescape(target_path))
+	local prev_buf = vim.api.nvim_get_current_buf()
+	local prev_path = vim.api.nvim_buf_get_name(prev_buf)
+
+	vim.cmd.edit(vim.fn.fnameescape(target_path))
+
+	if vim.fs.normalize(prev_path) ~= vim.fs.normalize(target_path) then
+		Snacks.bufdelete(prev_buf)
+	end
 end, { desc = "Open note referenced on current line" })
 
 map("n", "zkgg", function()
-    vim.cmd.edit("typ/main.typ")
+	vim.cmd.edit("typ/main.typ")
 end, { desc = "Back to main note" })
