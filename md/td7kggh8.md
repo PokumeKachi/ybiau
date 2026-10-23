@@ -33,6 +33,11 @@ tags: []
 - [Olympics](6xipq0z1.md)
 - [Books](t6yzl9ut.md)
 
+## Gigs
+
+- Google Developer Account
+- Freelancing
+
 ## Projects
 
 - [Optical Computer](wsm081q1.md)

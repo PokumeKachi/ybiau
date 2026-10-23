@@ -29,6 +29,7 @@ NUS, NTU, DTU CS&E, EMECS
 == Complementary
 
 - DevOps / platform / SRE
+- Blockchain
 - Cybersecurity
     - Application security
     - Systems security
@@ -37,14 +38,11 @@ NUS, NTU, DTU CS&E, EMECS
 
 == Freelance platforms
 
-- ZIDO
 - Wintake
 - JobBoard.vn — freelance projects and local clients.
 - FreelanceVN — Vietnamese freelance marketplace, including programming.
 - GigHit — connects freelancers directly with clients; payments are handled
 - Vlance — Vietnamese freelance marketplace.
-- Vietnam IT Jobs (Facebook communities) — search for Vietnamese IT freelance
-    and remote-job groups.
 
 == Vietnamese tech job boards
 

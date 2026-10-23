@@ -8,21 +8,21 @@ tags: [root, index]
 
 ## W minus 0
 
-- Hang out with Panh
-    - Make a Pokemon card gift pouch for 20/10
 - Hang out with NEC
 - GoGame
     - Capture animation
     - Avatar customization
-    - Invalid move sound
+    - Finish AI declaration
+    - Team color selection
+    - Customized board
 - Watch Loki S1 E2-6
 - Revise for motorbike exam
-- OLP SV: Just wing it
 
 ## W minus 1
 
 - Slapjam: Implement a game in C++, in conjunction with the Modern C++ book
 - Revise for mid terms
+- Check the Tet holiday dates and book Quang Tri ticket
 * Motorbike exam
 
 - Watch Loki S2 E1-3
